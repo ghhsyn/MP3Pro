@@ -86,6 +86,7 @@
                         MouseLeftButtonUp="Waveform_MouseUp" 
                         Cursor="Cross">
                     <Grid>
+                        
                         <ItemsControl ItemsSource="{Binding WaveformPeaks}" VerticalAlignment="Center" IsHitTestVisible="False">
                             <ItemsControl.ItemsPanel>
                                 <ItemsPanelTemplate>
